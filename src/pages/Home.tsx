@@ -43,7 +43,7 @@ const Home = () => {
         <div className="flex-1 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-400 shadow-xl shadow-blue-400/20">
             <img
-              src="/lovable-uploads/563e1626-6498-46de-99d4-30ca1f42a851.png"
+              src="/lovable-uploads/1e5fec68-c065-403f-9311-7854e1118687.png"
               alt="Avanish Dwivedi"
               className="w-full h-full object-cover"
             />

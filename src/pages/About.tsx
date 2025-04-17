@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { User, MapPin, School } from "lucide-react";
 
@@ -11,7 +12,7 @@ const About = () => {
           <div className="md:col-span-1 flex justify-center">
             <div className="w-64 h-64 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/3ff8e452-7258-487e-abb2-c6caf12b70bb.png"
+                src="/lovable-uploads/1e5fec68-c065-403f-9311-7854e1118687.png"
                 alt="Avanish Dwivedi" 
                 className="w-full h-full object-cover"
               />
