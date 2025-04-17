@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, CalendarDays, Building } from "lucide-react";
+import { GraduationCap, CalendarDays, Building, MapPin } from "lucide-react";
 
 const Education = () => {
   return (
