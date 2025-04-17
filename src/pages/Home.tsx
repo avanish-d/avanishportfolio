@@ -2,16 +2,31 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
-    <div className="min-h-[calc(100vh-64px-96px)] flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-gray-100 to-white py-12 px-4">
+    <div className="min-h-[calc(100vh-64px-96px)] flex flex-col md:flex-row items-center justify-center bg-[#1A1F2C] py-12 px-4">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         <div className="flex-1 text-center md:text-left md:pr-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">
-            Hi, I'm <span className="text-blue-600">Avanish Dwivedi</span>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
+            Hi, I'm{" "}
+            <TypeAnimation
+              sequence={[
+                'Avanish Dwivedi',
+                2000,
+                'a Developer',
+                2000,
+                'a Designer',
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              className="text-blue-400"
+              repeat={Infinity}
+            />
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">
+          <p className="text-xl md:text-2xl text-gray-300 mb-8">
             B.Tech Student & Web Developer
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -20,17 +35,17 @@ const Home = () => {
                 About Me <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <Link to="/skills">
-              <Button variant="outline" size="lg">
-                My Skills
+            <Link to="/resume">
+              <Button variant="outline" size="lg" className="text-white border-white hover:bg-blue-700">
+                View Resume
               </Button>
             </Link>
           </div>
         </div>
         <div className="flex-1 flex justify-center md:justify-end">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-400 shadow-xl shadow-blue-400/20">
             <img
-              src="/lovable-uploads/3ff8e452-7258-487e-abb2-c6caf12b70bb.png"
+              src="/lovable-uploads/563e1626-6498-46de-99d4-30ca1f42a851.png"
               alt="Avanish Dwivedi"
               className="w-full h-full object-cover"
             />
