@@ -14,11 +14,9 @@ const Home = () => {
             <TypeAnimation
               sequence={[
                 'Avanish Dwivedi',
-                2000,
-                'a Developer',
-                2000,
-                'a Designer',
-                2000,
+                3000,
+                'Avanish Dwivedi',
+                3000,
               ]}
               wrapper="span"
               speed={50}
@@ -36,7 +34,7 @@ const Home = () => {
               </Button>
             </Link>
             <Link to="/resume">
-              <Button variant="outline" size="lg" className="text-white border-white hover:bg-blue-700">
+              <Button variant="outline" size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
                 View Resume
               </Button>
             </Link>
