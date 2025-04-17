@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { User, MapPin, Calendar } from "lucide-react";
+import { User, MapPin, Calendar, School } from "lucide-react";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         <div className="md:col-span-1 flex justify-center">
           <div className="w-64 h-64 rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=500&h=500" 
+              src="/lovable-uploads/3ff8e452-7258-487e-abb2-c6caf12b70bb.png"
               alt="Avanish Dwivedi" 
               className="w-full h-full object-cover"
             />
@@ -26,28 +26,25 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <User className="text-blue-600" />
-                  <span>B.Tech Student</span>
+                  <span>B.Tech Student (3rd Year, CSE Branch)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="text-blue-600" />
                   <span>Prayagraj, India</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Calendar className="text-blue-600" />
-                  <span>B.Tech (Current Year)</span>
+                  <School className="text-blue-600" />
+                  <span>Kendriya Vidyalaya Naini, Prayagraj</span>
                 </div>
               </div>
               
               <div className="mt-8">
                 <h3 className="text-xl font-semibold mb-3">Biography</h3>
                 <p className="text-gray-700">
-                  I am a B.Tech student at United College of Engineering and Research, Naini Prayagraj. 
-                  I am passionate about web development and programming. My expertise includes HTML, CSS, 
-                  JavaScript, React, Java, and version control with Git and GitHub.
-                </p>
-                <p className="text-gray-700 mt-4">
-                  I am constantly learning and improving my skills to become a better developer.
-                  I enjoy solving complex problems and creating efficient solutions.
+                  I am a B.Tech student at United College of Engineering and Research, Naini Prayagraj, 
+                  currently in my 3rd year of Computer Science Engineering. I am passionate about web development 
+                  and design, with expertise in HTML, CSS, JavaScript, React, Java, and version control with Git and GitHub.
+                  I also have experience with design tools like Canva.
                 </p>
               </div>
             </CardContent>

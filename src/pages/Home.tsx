@@ -30,8 +30,8 @@ const Home = () => {
         <div className="flex-1 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
             <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=500&h=500"
-              alt="Profile"
+              src="/lovable-uploads/3ff8e452-7258-487e-abb2-c6caf12b70bb.png"
+              alt="Avanish Dwivedi"
               className="w-full h-full object-cover"
             />
           </div>
