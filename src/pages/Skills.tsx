@@ -10,7 +10,7 @@ const Skills = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="bg-[#222222] border-blue-400">
-            <CardHeader className="bg-gray-50 border-b">
+            <CardHeader className="bg-gray-800 border-b border-blue-400">
               <CardTitle className="flex items-center gap-2 text-white">
                 <Code className="text-blue-600" />
                 Web Development
@@ -50,7 +50,7 @@ const Skills = () => {
           </Card>
           
           <Card className="bg-[#222222] border-blue-400">
-            <CardHeader className="bg-gray-50 border-b">
+            <CardHeader className="bg-gray-800 border-b border-blue-400">
               <CardTitle className="flex items-center gap-2 text-white">
                 <FileCode className="text-blue-600" />
                 Programming Languages
@@ -69,7 +69,7 @@ const Skills = () => {
           </Card>
           
           <Card className="md:col-span-2 bg-[#222222] border-blue-400">
-            <CardHeader className="bg-gray-50 border-b">
+            <CardHeader className="bg-gray-800 border-b border-blue-400">
               <CardTitle className="flex items-center gap-2 text-white">
                 <GitBranch className="text-blue-600" />
                 Development Tools

@@ -11,7 +11,7 @@ const Education = () => {
         <div className="max-w-3xl mx-auto">
           <div className="space-y-8">
             <Card className="bg-[#222222] border-blue-400">
-              <CardHeader className="bg-gray-50 border-b">
+              <CardHeader className="bg-gray-800 border-b border-blue-400">
                 <CardTitle className="flex items-center gap-2 text-white">
                   <GraduationCap className="text-blue-600" />
                   Bachelor of Technology (CSE)
@@ -45,7 +45,7 @@ const Education = () => {
             </Card>
 
             <Card className="bg-[#222222] border-blue-400">
-              <CardHeader className="bg-gray-50 border-b">
+              <CardHeader className="bg-gray-800 border-b border-blue-400">
                 <CardTitle className="flex items-center gap-2 text-white">
                   <School className="text-blue-600" />
                   School Education
