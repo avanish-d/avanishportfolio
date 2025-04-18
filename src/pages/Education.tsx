@@ -12,9 +12,9 @@ const Education = () => {
           <div className="space-y-8">
             <Card className="bg-[#222222] border-blue-400">
               <CardHeader className="bg-gray-800 border-b border-blue-400">
-                <CardTitle className="flex items-center gap-2 text-white">
+                <CardTitle className="flex items-center gap-2 text-white font-bold">
                   <GraduationCap className="text-blue-600" />
-                  Bachelor of Technology (CSE)
+                  <span className="text-blue-100">Bachelor of Technology (CSE)</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
@@ -46,9 +46,9 @@ const Education = () => {
 
             <Card className="bg-[#222222] border-blue-400">
               <CardHeader className="bg-gray-800 border-b border-blue-400">
-                <CardTitle className="flex items-center gap-2 text-white">
+                <CardTitle className="flex items-center gap-2 text-white font-bold">
                   <School className="text-blue-600" />
-                  School Education
+                  <span className="text-blue-100">School Education</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">

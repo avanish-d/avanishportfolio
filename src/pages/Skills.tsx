@@ -11,9 +11,9 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="bg-[#222222] border-blue-400">
             <CardHeader className="bg-gray-800 border-b border-blue-400">
-              <CardTitle className="flex items-center gap-2 text-white">
+              <CardTitle className="flex items-center gap-2 text-white font-bold">
                 <Code className="text-blue-600" />
-                Web Development
+                <span className="text-blue-100">Web Development</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
@@ -51,9 +51,9 @@ const Skills = () => {
           
           <Card className="bg-[#222222] border-blue-400">
             <CardHeader className="bg-gray-800 border-b border-blue-400">
-              <CardTitle className="flex items-center gap-2 text-white">
+              <CardTitle className="flex items-center gap-2 text-white font-bold">
                 <FileCode className="text-blue-600" />
-                Programming Languages
+                <span className="text-blue-100">Programming Languages</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
@@ -70,9 +70,9 @@ const Skills = () => {
           
           <Card className="md:col-span-2 bg-[#222222] border-blue-400">
             <CardHeader className="bg-gray-800 border-b border-blue-400">
-              <CardTitle className="flex items-center gap-2 text-white">
+              <CardTitle className="flex items-center gap-2 text-white font-bold">
                 <GitBranch className="text-blue-600" />
-                Development Tools
+                <span className="text-blue-100">Development Tools</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
