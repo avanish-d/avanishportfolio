@@ -108,18 +108,56 @@ const Resume = () => {
             {/* Projects */}
             <section>
               <h2 className="text-xl font-semibold text-blue-400 mb-2">PROJECTS</h2>
-              <div className="space-y-4 text-gray-300">
+              <div className="space-y-6 text-gray-300">
                 <div>
-                  <h3 className="font-medium">Sentiment Analysis App - Product Review Classifier</h3>
-                  <p>Deployed an ML-powered Streamlit app to classify Amazon reviews into 5 sentiment categories with 95%+ accuracy.</p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-medium text-blue-300">Sentiment Analysis App – Product Review Classifier</h3>
+                    <a href="#" className="text-blue-400 hover:text-blue-300">
+                      <Github size={16} />
+                    </a>
+                  </div>
+                  <p className="text-sm text-blue-200 mb-2">Python, NLTK, Scikit-learn, TF-IDF, Streamlit</p>
+                  <ul className="list-disc list-inside space-y-1 text-sm">
+                    <li>Deployed an ML-powered Streamlit app to classify Amazon reviews into 3 sentiment categories with 85%+ accuracy.</li>
+                    <li>Preprocessed 10,000+ reviews using text normalization, stopword removal, stemming, and negation handling.</li>
+                    <li>Trained a Multinomial Naive Bayes model using TF-IDF features, reducing bias via class balancing.</li>
+                    <li>Designed real-time UI with interactive predictions, confidence score, pie charts, and CSV logging.</li>
+                  </ul>
                 </div>
                 <div>
-                  <h3 className="font-medium">Nirviti - Financial Inclusion through AI</h3>
-                  <p>Designed real-time UI with interactive predictions, confidence score pie charts, and CSV logging.</p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-medium text-blue-300">Nivritti – Financial Inclusion Platform</h3>
+                    <a href="#" className="text-blue-400 hover:text-blue-300">
+                      <Github size={16} />
+                    </a>
+                  </div>
+                  <p className="text-sm text-blue-200 mb-2">MongoDB, Express.js, React.js, Node.js, Firebase</p>
+                  <ul className="list-disc list-inside space-y-1 text-sm">
+                    <li>Built a MERN-based platform facilitating micro-loans, savings, and job listings; designed for rural users.</li>
+                    <li>Integrated Firebase for managing 200+ simulated user records securely in real-time.</li>
+                    <li>Architected scalable APIs and added geo-location-based job filtering, improving accessibility by 60%.</li>
+                  </ul>
                 </div>
                 <div>
-                  <h3 className="font-medium">Pathology Tool with Digital Reports</h3>
-                  <p>Built and deployed a pathology tool that generated over 500 digital reports with print-ready formatted logs.</p>
+                  <div className="mb-2">
+                    <h3 className="font-medium text-blue-300">Blood Report Form Generator – Pathology Report Tool</h3>
+                  </div>
+                  <p className="text-sm text-blue-200 mb-2">HTML, CSS, JavaScript</p>
+                  <ul className="list-disc list-inside space-y-1 text-sm">
+                    <li>Built and deployed a pathology tool that generated over 500 digital reports with print-ready formatting.</li>
+                    <li>Achieved 50% reduction in manual reporting time through automation and structured design.</li>
+                    <li>Enhanced mobile responsiveness and printable layout using custom CSS and JavaScript DOM manipulation.</li>
+                  </ul>
+                </div>
+                <div>
+                  <div className="mb-2">
+                    <h3 className="font-medium text-blue-300">Swasthya Sathi</h3>
+                  </div>
+                  <ul className="list-disc list-inside space-y-1 text-sm">
+                    <li>Developed an online/offline consultation booking system, enabling 100+ simulated patients to schedule doctor appointments.</li>
+                    <li>Implemented real-time slot management and form validation, improving booking accuracy by 95%.</li>
+                    <li>Delivered a fully responsive UI with 100% cross-device compatibility across mobile and desktop platforms.</li>
+                  </ul>
                 </div>
               </div>
             </section>
