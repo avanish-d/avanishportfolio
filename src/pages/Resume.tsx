@@ -166,7 +166,7 @@ const Resume = () => {
             <section>
               <h2 className="text-xl font-semibold text-blue-400 mb-2">ACHIEVEMENTS</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>AI Virtual Internship (PBEL_AI) - IBM Skills Network (Jul 2025)</li>
+                <li>AI Virtual Internship (PBEL_AI) - IBM (Jul 2025)</li>
                 <li>Python Programming - GUVI (IIT-M Research Foundation) (Jun 2025)</li>
                 <li>FullStack Web Development - IIT Kharagpur (Sep 2024)</li>
                 <li>Java Programming - United College of Engineering and Research (Sep 2023)</li>
