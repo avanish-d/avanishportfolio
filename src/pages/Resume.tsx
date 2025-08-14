@@ -69,11 +69,40 @@ const Resume = () => {
             {/* Technical Skills */}
             <section>
               <h2 className="text-xl font-semibold text-blue-400 mb-2">TECHNICAL SKILLS</h2>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Programming Languages: C, Java, HTML, CSS, JavaScript, Python, SQL</li>
-                <li>Web Development: HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB, SQL</li>
-                <li>Tools & Platforms: Git, GitHub, VS Code, Streamlit, Chrome, DevTools</li>
-              </ul>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
+                <div>
+                  <h4 className="font-medium text-blue-300 mb-2">Programming Languages</h4>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>C, Java, Python</li>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>SQL</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-blue-300 mb-2">Web Development</h4>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>Bootstrap, Node.js, Express.js</li>
+                    <li>MongoDB, React.js</li>
+                    <li>Streamlit</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-blue-300 mb-2">Tools & Platforms</h4>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>Git, GitHub</li>
+                    <li>VS Code, Chrome DevTools</li>
+                    <li>Machine Learning Libraries</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-blue-300 mb-2">Core Competencies</h4>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>Data Structures & Algorithms</li>
+                    <li>Machine Learning</li>
+                    <li>Full Stack Development</li>
+                  </ul>
+                </div>
+              </div>
             </section>
 
             {/* Projects */}
@@ -104,7 +133,6 @@ const Resume = () => {
                 <li>FullStack Web Development - IIT Kharagpur (Sep 2024)</li>
                 <li>Java Programming - United College of Engineering and Research (Sep 2023)</li>
                 <li>Participated in U-Hack and HackQuest hackathons; contributed to open-source solutions under strict deadlines.</li>
-                <li>Achieved over 50 projects across multiple languages; YouTube channel (16k+ subscribers) improving engagement.</li>
                 <li>Led a team as Hackathon Leader at inter-college event, coordinating development and final pitch.</li>
               </ul>
             </section>
