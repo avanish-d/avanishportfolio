@@ -38,8 +38,9 @@ const Resume = () => {
                 <li>
                   <div className="flex justify-between">
                     <div>
-                      <p className="font-medium">B.Tech Computer Science</p>
-                      <p>United College of Engineering and Research</p>
+                      <p className="font-medium">B.Tech Computer Science and Engineering</p>
+                      <p>United College of Engineering and Research, Prayagraj</p>
+                      <p className="text-sm">CGPA: 8.44</p>
                     </div>
                     <span>2022-2026</span>
                   </div>
@@ -69,9 +70,9 @@ const Resume = () => {
             <section>
               <h2 className="text-xl font-semibold text-blue-400 mb-2">TECHNICAL SKILLS</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Programming Languages: C, Java, HTML, CSS, JavaScript</li>
-                <li>Frameworks: HTML5, CSS3, Bootstrap, React.js</li>
-                <li>Developer Tools: VS Code, IntelliJ, Canva, GitHub</li>
+                <li>Programming Languages: C, Java, HTML, CSS, JavaScript, Python, SQL</li>
+                <li>Web Development: HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB, SQL</li>
+                <li>Tools & Platforms: Git, GitHub, VS Code, Streamlit, Chrome, DevTools</li>
               </ul>
             </section>
 
@@ -80,12 +81,20 @@ const Resume = () => {
               <h2 className="text-xl font-semibold text-blue-400 mb-2">PROJECTS</h2>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h3 className="font-medium">Prescripto (HTML, CSS, JavaScript, React.js)</h3>
-                  <p>Developed a responsive web platform using React.js that allows patients to book online or in-person doctor consultations.</p>
+                  <h3 className="font-medium">Sentiment Analysis App - Product Review Classifier</h3>
+                  <p>Deployed an ML-powered Streamlit app to classify Amazon reviews into 5 sentiment categories with 95%+ accuracy.</p>
                 </div>
                 <div>
-                  <h3 className="font-medium">Blood Report Form Generator (HTML, CSS)</h3>
-                  <p>Developed a responsive and interactive pathology report generator ensuring an intuitive user experience.</p>
+                  <h3 className="font-medium">Nirviti - Financial Inclusion through AI</h3>
+                  <p>Designed real-time UI with interactive predictions, confidence score pie charts, and CSV logging.</p>
+                </div>
+                <div>
+                  <h3 className="font-medium">AI-Driven Agricultural Advisor Platform</h3>
+                  <p>Built an AI-Driven platform facilitating disease takedowns, savings, and job linkage designed for rural users.</p>
+                </div>
+                <div>
+                  <h3 className="font-medium">Pathology Tool with Digital Reports</h3>
+                  <p>Built and deployed a pathology tool that generated over 500 digital reports with print-ready formatted logs.</p>
                 </div>
               </div>
             </section>
@@ -94,10 +103,13 @@ const Resume = () => {
             <section>
               <h2 className="text-xl font-semibold text-blue-400 mb-2">ACHIEVEMENTS</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Designed and implemented a web-based pathology reports dashboard for Kabir Parakh Sansthan.</li>
-                <li>Solved 150+ Data Structures Algorithms problems on LeetCode.</li>
-                <li>Participated in U-Hack college hackathon and secured a top 10 position among 50+ teams.</li>
-                <li>Created digital physics notes for YouTube Channel 'Padhle Akshay' (1M+ subscribers).</li>
+                <li>AI Virtual Internship (FEBE_AI) - IIM Skills Network (Jul 2025)</li>
+                <li>Python Programming - GUVI (IIT-M Research Foundation) (Jun 2025)</li>
+                <li>FullStack Web Development - IIT Kharagpur (Sep 2024)</li>
+                <li>Java Programming - United College of Engineering and Research (Sep 2023)</li>
+                <li>Participated in U-Hack and HackQuest hackathons; contributed to open-source solutions under strict deadlines.</li>
+                <li>Achieved over 50 projects across multiple languages; YouTube channel (16k+ subscribers) improving engagement.</li>
+                <li>Led a team as Hackathon Leader at inter-college event, coordinating development and final pitch.</li>
               </ul>
             </section>
           </div>

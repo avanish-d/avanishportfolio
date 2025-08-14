@@ -12,7 +12,7 @@ const About = () => {
           <div className="md:col-span-1 flex justify-center">
             <div className="w-64 h-64 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/1e5fec68-c065-403f-9311-7854e1118687.png"
+                src="/lovable-uploads/2cebfe9c-4643-4686-a265-99089dc87ff9.png"
                 alt="Avanish Dwivedi" 
                 className="w-full h-full object-cover"
               />
