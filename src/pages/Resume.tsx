@@ -89,10 +89,6 @@ const Resume = () => {
                   <p>Designed real-time UI with interactive predictions, confidence score pie charts, and CSV logging.</p>
                 </div>
                 <div>
-                  <h3 className="font-medium">AI-Driven Agricultural Advisor Platform</h3>
-                  <p>Built an AI-Driven platform facilitating disease takedowns, savings, and job linkage designed for rural users.</p>
-                </div>
-                <div>
                   <h3 className="font-medium">Pathology Tool with Digital Reports</h3>
                   <p>Built and deployed a pathology tool that generated over 500 digital reports with print-ready formatted logs.</p>
                 </div>
